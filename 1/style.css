@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Montserrat:wght@500&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Montserrat:wght@500&family=Oswald&family=Vampiro+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Montserrat:wght@500&family=Oswald&family=Staatliches&family=Vampiro+One&display=swap');
+
+html {
+    background-image: url(../1/cars/wp3325539.jpg);
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+
+}
+
+li,
+a,
+button {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    margin-left: auto;
+    margin-top: 0;
+
+}
+
+.logo {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    mix-blend-mode: 0;
+    background-color: #24252a;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+
+.word {
+    position: absolute;
+    bottom: 55%;
+    right: 55%;
+    background-color: transparent;
+    float: left;
+    font-size: 100px;
+    /* color: #090808; */
+    color: #24252a;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+
+}
+
+
+.bio {
+    position: absolute;
+    bottom: 50%;
+    right: 30%;
+    background-color: transparent;
+    float: left;
+    font-size: 20px;
+    /* color: #090808; */
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+
+
+}
+
+
+
+
+
+/* .material-symbols-outlined {
+    color: white;
+    align-items: center;
+    position: relative;
+
+
+
+
+
+    font-variation-settings:
+        'FILL' 0, ;
+    'wght' 400,
+    ;
+    'GRAD' 0,
+    ;
+    'opsz' 48;
+
+
+} */
